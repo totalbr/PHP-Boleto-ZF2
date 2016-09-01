@@ -18,7 +18,7 @@ Instalação
      {
          "minimum-stability": "dev",
          "require": {
-             "jotjunior/boletophp-zf2": "dev-master"
+             "totalbr/boletophp-zf2": "dev-master"
          }
      }
      ```
@@ -30,7 +30,7 @@ Instalação
      ```php
      'PhpBoletoZf2',
      ```
-  6. Copie o arquivo `diretorio/do/meu/projeto/vendor/jotjunior/boletophp-zf2/dist/php-boleto-zf2.global.php` para o diretório `diretorio/do/meu/projeto/config/autoload` e configure seus dados.
+  6. Copie o arquivo `diretorio/do/meu/projeto/vendor/totalbr/boletophp-zf2/dist/php-boleto-zf2.global.php` para o diretório `diretorio/do/meu/projeto/config/autoload` e configure seus dados.
 
 Rotas
 -----
