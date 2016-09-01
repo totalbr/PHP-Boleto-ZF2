@@ -447,6 +447,18 @@
                         </tr>
                     </tbody>
                 </table>
+                
+                <table class="line" cellspacing="0" cellpadding="0" width="666px">
+                    <tbody>
+                        <tr class="titulos">
+                            <td class="sacado">Endere&ccedil;o</td>
+                        </tr>
+                        <tr class="campos">
+                            <td class="sacado"><?php echo $this->dados->getCedente()->getEndereco() ?>, <?php echo $this->dados->getCedente()->getCidade() . '/' . $this->dados->getCedente()->getUf() ?></td>
+                        </tr>
+                    </tbody>
+                </table>
+                
                 <table class="line" cellspacing="0" cellPadding="0" width="666px">
                     <tbody>
                         <tr class="titulos">
